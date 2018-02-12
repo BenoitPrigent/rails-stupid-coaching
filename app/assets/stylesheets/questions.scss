@@ -1,0 +1,39 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+body {
+  font-family: "Avenir";
+}
+
+.block {
+  margin: 20px;
+  padding: 10px;
+  background-color: #F4F4F4;
+  text-align: left;
+  border-color: gray;
+  border-style: solid;
+  border-width: 0px 0px 0px 5px;
+
+
+  p {
+    margin: 10px;
+    font-weight: lighter;
+  }
+}
+
+h1{
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  margin: 10px;
+}
